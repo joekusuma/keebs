@@ -20,8 +20,7 @@ AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes	
 SERIAL_DRIVER = bitbang
 CONSOLE_ENABLE = yes
+OLED_DRIVER_ENABLE = yes
 WPM_ENABLE = yes
-OLED_ENABLE = yes            
-OLED_DRIVER = SSD1306
-
-EXTRAFLAGS += -flto
+OLED_ENABLE = yes     # Enables the use of OLED displays
+OLED_DRIVER = SSD1306 # Selects the right driver

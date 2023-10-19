@@ -29,8 +29,3 @@
 #define EE_HANDS
 
 /* #define MASTER_LEFT */
-#define OLED_TIMEOUT 120000
-#define OLED_BRIGHTNESS 120
-
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION

@@ -20,8 +20,3 @@ AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes	
 SERIAL_DRIVER = bitbang
 CONSOLE_ENABLE = yes
-WPM_ENABLE = yes
-OLED_ENABLE = yes            
-OLED_DRIVER = SSD1306
-
-EXTRAFLAGS += -flto
